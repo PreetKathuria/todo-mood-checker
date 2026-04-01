@@ -98,22 +98,72 @@ function displayTasks() {
 
 happy.addEventListener("click", () => {
   slogan.innerText = "ohhh, its graet , hape you have many more happy days take kisy from me 😘😽💋";
+  happy.style.border = "3px solid purple"
+  happy.style.padding = "2px"
+  sad.style.border = "0px"
+  sad.style.padding = "0px"
+  sleepy.style.border = "0px"
+  sleepy.style.padding = "0px"
+  angry.style.border = "0px"
+  angry.style.padding = "0px"
+  okayok.style.border = "0px"
+  okayok.style.padding = "0px"
 }); 
 
 sad.addEventListener("click", () => {
   slogan.innerText = "oops!!! be happy naaa!!! this time will pass. fightinggg babbyyyy!!!! 🫂😽";
+  sad.style.border = "3px solid purple"
+  sad.style.padding = "2px"
+  happy.style.border = "0px"
+  happy.style.padding = "0px"
+  sleepy.style.border = "0px"
+  sleepy.style.padding = "0px"
+  angry.style.border = "0px"
+  angry.style.padding = "0px"
+  okayok.style.border = "0px"
+  okayok.style.padding = "0px"
 });
 
 sleepy.addEventListener("click", () => {
   slogan.innerText = "awww myy babyyy just go to sleep and dont take any tension 🛌🏻🛏️";
+  sleepy.style.border = "3px solid purple"
+  sleepy.style.padding = "2px"
+  sad.style.border = "0px"
+  sad.style.padding = "0px"
+  happy.style.border = "0px"
+  happy.style.padding = "0px"
+  angry.style.border = "0px"
+  angry.style.padding = "0px"
+  okayok.style.border = "0px"
+  okayok.style.padding = "0px"
 });
 
 angry.addEventListener("click", () => {
   slogan.innerText = "aee dont be angry na!! its bad for your health. whoom make you angry that person***** 🥊💀☠️🤺";
+  angry.style.border = "3px solid purple"
+  angry.style.padding = "2px"
+  sad.style.border = "0px"
+  sad.style.padding = "0px"
+  sleepy.style.border = "0px"
+  sleepy.style.padding = "0px"
+  happy.style.border = "0px"
+  happy.style.padding = "0px"
+  okayok.style.border = "0px"
+  okayok.style.padding = "0px"
 });
 
 okayok.addEventListener("click", () => {
   slogan.innerText = "what happened is everything alright a big hug from me 🫂";
+  okayok.style.border = "3px solid purple"
+  okayok.style.padding = "2px"
+  sad.style.border = "0px"
+  sad.style.padding = "0px"
+  sleepy.style.border = "0px"
+  sleepy.style.padding = "0px"
+  angry.style.border = "0px"
+  angry.style.padding = "0px"
+  happy.style.border = "0px"
+  happy.style.padding = "0px"
 });
 
 completeBtn.addEventListener("click", () => {
